@@ -52,19 +52,3 @@ public class Test {
 			}
 		}
 		
-//		HashMap<Integer,Queue<Integer>> hm=new HashMap<>();
-//		Queue<Integer> q=new LinkedList<>();
-//		q.add(1);
-//		q.add(2);
-//		q.add(3);
-//		hm.put(1, q);
-//		
-//		while(!hm.get(1).isEmpty()) {
-//			int i=hm.get(1).poll();
-//			System.out.println(i);
-//		}
-//		System.out.println(hm.get(1));
-		
-		
-	}
-}
