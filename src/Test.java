@@ -5,12 +5,7 @@ public class Test {
 	public static void main (String[] args) throws customException11 {
 		
 		
-//		int hcode="ajayshyam".hashCode();
-//		System.out.println(hcode%4+1);
-//		while(true) {
-//			hcode=String.valueOf(hcode).hashCode();
-//			System.out.println(Math.abs(hcode)%4+1);
-//		}
+
 		
 //		Operations o = new Operations();
 		Operations2 o = new Operations2();
@@ -73,10 +68,3 @@ public class Test {
 		
 	}
 }
-
-/*
- * Things to implement:
- * 1. re-allocation
- * 2. get user status based on ref ID (ticketPosition hashMap) -> if booked then which block// if not then position in queue of which block
- * 
- */
