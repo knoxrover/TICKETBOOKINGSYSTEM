@@ -1,8 +1,9 @@
 import java.util.*;
 
 
+
 public class Test {
-	public static void main (String[] args) throws customException11 {
+	public static void main (String[] args)  {
 		
 		
 
@@ -29,12 +30,10 @@ public class Test {
 			case 1:
 				System.out.println("Enter user name");
 				String name = sc.next();
-				if(o.isValidName(name)) {
-				o.addUser(name);
-				}else {
-					System.out.println("Enter name length greater than 3");
-					continue;
-				}
+				if(o.isValidName(name))
+					o.addUser(name);
+				else
+					System.out.println("Please write valid name and try again...");
 				break;
 			case 2:
 				System.out.println("Enter reference Id");
@@ -52,3 +51,5 @@ public class Test {
 			}
 		}
 		
+	}
+}
